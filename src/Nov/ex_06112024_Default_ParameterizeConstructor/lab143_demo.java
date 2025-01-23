@@ -7,9 +7,8 @@ public class lab143_demo {
         Scanner sc = new Scanner(System.in);
 
         dog d2 = new dog("kneww", 50);
-        System.out.println(d2.age);
-        System.out.println(d2.name);
-
+//      System.out.println(d2.age);
+//      System.out.println(d2.name);
         d2.display();
 
         String name1 = sc.next();
@@ -17,10 +16,7 @@ public class lab143_demo {
         dog d3 = new dog(name1,age1);
         System.out.println(d3.age);
         System.out.println(d3.name);
-
         d3.display();
-
-
     }
 
 }

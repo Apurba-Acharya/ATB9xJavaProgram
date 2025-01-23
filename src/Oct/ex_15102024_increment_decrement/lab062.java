@@ -6,10 +6,11 @@ public class lab062 {
         int a = 10;
         int b = ++a;
         System.out.println(++a);
+        System.out.println(b);
 
         //post >>
-//        int p = 10;
-//        System.out.println(p++);
-//        System.out.println(p);
+        int p = 10;
+        System.out.println(p++);
+        System.out.println(p);
     }
 }

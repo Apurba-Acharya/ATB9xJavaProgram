@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class lab078 {
     public static void main(String[] args) {
+
+        //the type of triangle based on its side lengths >>
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("enter s1 ");
         double s1 = sc.nextDouble();

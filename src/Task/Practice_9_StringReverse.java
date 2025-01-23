@@ -1,0 +1,25 @@
+package Task;
+
+public class Practice_9_StringReverse {
+
+    /* Reverse String */
+
+    public static void main(String[] args) {
+
+        String s  = "Selenium";
+
+        //1. using for loop >>
+        int len = s.length();
+        for (int i = len-1; i>=0; i--){
+            System.out.print(s.charAt(i));
+        }
+
+        //using string buffer class >
+
+        //String > immutable and don't have reverse function
+        //String Buffer > mutable and have reverse function
+
+        StringBuffer sf = new StringBuffer(s);
+        System.out.println(sf.reverse());
+        }
+    }

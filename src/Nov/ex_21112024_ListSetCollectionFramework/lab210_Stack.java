@@ -8,7 +8,7 @@ public class lab210_Stack {
         Stack s = new Stack();
         s.add("dutta1");
         s.add("dutta2");
-        s.add("dutta9");
+        s.add("dutta3");
         System.out.println(s.size());
         System.out.println(s.peek());
         System.out.println(s.pop());

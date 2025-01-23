@@ -1,8 +1,7 @@
-package Nov.ex_22112024_MapCollecrionFramework;
+package Nov.ex_22112024_MapCollectionFramework;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Practice_1 {
     public static void main(String[] args) {

@@ -9,7 +9,7 @@ public class lab041 {
 
         int d = 10;
         int e = 30;
-        boolean f = a >= b;
+        boolean f = d >= e;
         System.out.println(f);
     }
 }

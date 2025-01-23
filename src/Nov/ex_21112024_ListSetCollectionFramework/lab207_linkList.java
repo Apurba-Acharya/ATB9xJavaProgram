@@ -14,8 +14,9 @@ public class lab207_linkList {
         l2.add(2);
         l2.add(5);
         System.out.println(l2);
-        System.out.println(l2.get(2));
+        System.out.println(l2.get(3));
         Object o1 = l2.get(3);
+        System.out.println(o1);
 
         List l3 = new ArrayList();
         l3.add(2);

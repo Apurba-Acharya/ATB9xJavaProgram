@@ -1,4 +1,4 @@
-package Nov.ex_22112024_MapCollecrionFramework;
+package Nov.ex_22112024_MapCollectionFramework;
 
 import java.util.Enumeration;
 import java.util.Hashtable;

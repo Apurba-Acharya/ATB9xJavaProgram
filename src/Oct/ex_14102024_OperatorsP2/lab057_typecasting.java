@@ -10,7 +10,7 @@ public class lab057_typecasting {
         byte b = 10;
         int a = b; //valid sintax >> implict casting by JVM
         int a1 = (int)b; //valid sintax >> explict calueasting by JVM
-        System.out.println(1);
+        System.out.println(a1);
 
         //Narrowing >> converting large data type to small
         int val = 200;

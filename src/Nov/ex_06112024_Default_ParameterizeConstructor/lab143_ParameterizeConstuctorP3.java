@@ -2,7 +2,7 @@ package Nov.ex_06112024_Default_ParameterizeConstructor;
 
 import java.util.Scanner;
 
-public class lab143_ConstuctorP3 {
+public class lab143_ParameterizeConstuctorP3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

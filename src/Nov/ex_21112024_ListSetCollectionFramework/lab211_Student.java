@@ -1,6 +1,6 @@
 package Nov.ex_21112024_ListSetCollectionFramework;
 
-public class Student {
+public class lab211_Student {
         private String name;
         private Integer rollNo;
 
@@ -20,7 +20,7 @@ public class Student {
         this.name = name;
     }
 
-    public Student(Integer rollNo, String name) {
+    public lab211_Student(Integer rollNo, String name) {
         this.rollNo = rollNo;
         this.name = name;
 

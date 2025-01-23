@@ -1,11 +1,11 @@
-package Nov.ex_22112024_MapCollecrionFramework;
+package Nov.ex_22112024_MapCollectionFramework;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class lab220_MapP3 {
     public static void main(String[] args) {
-        Map<String,Integer> m3 = new HashMap();
+        Map <String,Integer> m3 = new HashMap();
 
         m3.put("id", 2);
         m3.put("id2", 2);

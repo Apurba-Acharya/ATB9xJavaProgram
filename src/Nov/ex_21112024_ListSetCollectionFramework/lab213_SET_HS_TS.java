@@ -34,7 +34,7 @@ public class lab213_SET_HS_TS {
         ts.add("Orange");
         ts.add("banana");
         ts.add("Orange");
-        //ts.add(125); // Not allowed different data type
+//        ts.add(125); // Not allowed different data type
 //        ts.add(null); //Not allowed***
 //        ts.add(null);
         System.out.println(ts);
