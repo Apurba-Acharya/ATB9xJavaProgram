@@ -6,7 +6,7 @@ public class lab159_abstraction_3 {
         r.drive();
 
         lab159_Tesla T = new lab159_Tesla();
-        T.drive2();
+        T.drive();
     }
 }
 

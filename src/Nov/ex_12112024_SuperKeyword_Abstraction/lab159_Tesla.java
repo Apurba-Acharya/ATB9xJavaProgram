@@ -11,13 +11,13 @@ public class lab159_Tesla extends Engine{
         System.out.println("Stopping Electric ENgg...");
     }
 
-    void drive2(){
+    void drive(){
         startEngine();
         stopEngine();
     }
 
     public static void main(String[] args) {
         lab159_Tesla T = new lab159_Tesla();
-        T.drive2();
+        T.drive();
     }
 }

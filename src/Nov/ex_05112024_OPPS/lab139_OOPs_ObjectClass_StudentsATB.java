@@ -8,11 +8,11 @@ public class lab139_OOPs_ObjectClass_StudentsATB {   //***This is call runner cl
         //* StudentsATB_lab139_OOPs_ObjectClass  = Class
 
        s1.name = "Pramod";
-       //*** s1 = object reference using with atribute (name)
+       //*** s1 = object reference used with attribute (name)
         s1.eat(10);
+        //*** s1 = object reference used with behaviour (eat)
         s1.age = 10;
         System.out.println(s1.age);
-
 
        StudentsATB_lab139_OOPs_ObjectClass s2 = new StudentsATB_lab139_OOPs_ObjectClass();
        s2.name = "Amit";
@@ -20,10 +20,6 @@ public class lab139_OOPs_ObjectClass_StudentsATB {   //***This is call runner cl
        System.out.println(s2.address);
        s2.age = 20;
        int a = s2.walk2("50 KM");
-       System.out.println("a: " + a);
-
-
-
-
+       System.out.println("a = " + a);
     }
 }

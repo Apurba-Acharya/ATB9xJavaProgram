@@ -16,7 +16,6 @@ class cat{    // C (class)
     String name;   //A(attribute)
 
     void sleep(){  //B(Behaviour)
-
         System.out.println("sleeping ->> " + name);
     }
 }

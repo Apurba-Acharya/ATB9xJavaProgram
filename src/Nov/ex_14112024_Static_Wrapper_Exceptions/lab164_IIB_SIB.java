@@ -4,9 +4,10 @@ import jdk.dynalink.beans.StaticClass;
 
 public class lab164_IIB_SIB {
     public static void main(String[] args) {
-        A a = new A();
+        A a2 = new A();
         A a1 = new A();
         new A();
+        A a3; // if only reference is created then SIB or IIB both will not be executed
     }
 }
 class A {

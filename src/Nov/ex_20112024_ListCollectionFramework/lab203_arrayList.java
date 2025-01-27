@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-public class lab203_arrayList {
+public class  lab203_arrayList {
     public static void main(String[] args) {
         List list = new ArrayList();
 

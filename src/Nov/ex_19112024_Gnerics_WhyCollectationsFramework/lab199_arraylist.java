@@ -1,7 +1,7 @@
 package Nov.ex_19112024_Gnerics_WhyCollectationsFramework;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collection; //Which package collection framework is available ? > interview Ques.
 import java.util.List;
 
 public class lab199_arraylist {
@@ -20,6 +20,7 @@ public class lab199_arraylist {
         System.out.println(list2);
         Object o = list2.get(5);
         System.out.println(o);
+        System.out.println(list2.get(6));
 
     }
 }

@@ -14,7 +14,6 @@ enum color{
 //    green ("#458K");
 //    yellow ("#458K");
 
-
     private String hexcode;
     color (String hexcode){
         this.hexcode = hexcode;

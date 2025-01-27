@@ -1,6 +1,9 @@
 package Nov.ex_19112024_Gnerics_WhyCollectationsFramework;
 
 public class lab196_Generics1 {
+
+    //Generics: Same function can be use in integer and same can be used  in string
+
     public static void main(String[] args) {
         temp(12, 45);
         temp("pramo","dutta");

@@ -8,16 +8,16 @@ public class lab158_abstraction_2 {
     }
 }
 
-class Child extends Father {
+class Child extends Father { //Child class
     @Override
-    void loan50k() {
+    void loan50k() { //Child behaviour
         System.out.println("I'm paying -- > loan50k");
     }
 }
 
-abstract class Father{
+abstract class Father{ //Prenent class
     abstract void loan50k();
-    void loan25k(){
-        System.out.println("Done --> Father");
+    void loan25k(){   //Behaviour
+        System.out.println("Paid by --> Father");
     }
 }

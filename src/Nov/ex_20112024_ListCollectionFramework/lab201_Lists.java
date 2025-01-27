@@ -9,13 +9,10 @@ public class lab201_Lists {
         List mylist = new ArrayList(); // storing data in arrays format >> continuous memory
         List mylist2 = new LinkedList(); // storing data in >> doubly linked list
 
-        List fruits = List.of("orange", "apple");
 
+        List fruits = List.of("orange", "apple");
         System.out.println(fruits);
         System.out.println(fruits.get(0));
 //        fruits.add("mango"); //java.lang.UnsupportedOperationException
-
-
-
     }
 }

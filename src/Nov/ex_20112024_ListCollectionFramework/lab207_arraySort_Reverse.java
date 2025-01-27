@@ -11,19 +11,14 @@ public class lab207_arraySort_Reverse {
         list1.add(52);
         list1.add(10);
         list1.add(13);
+        System.out.println(list1);
 
         //Sort >>
-        System.out.println(list1);
         Collections.sort(list1);
-        System.out.println(list1);
+        System.out.println("Sorting array: " + list1);
 
         //Reverse >>
         Collections.sort(list1,Collections.reverseOrder());
-        System.out.println(list1);
-
-
-
-
-
+        System.out.println("Reverse array: " + list1);
     }
 }
