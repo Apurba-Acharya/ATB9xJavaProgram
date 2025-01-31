@@ -10,14 +10,14 @@ public class lab150_overriding {
 
 
 
-class dog { //Class
+class dog { //SuperClass
     void bark(){  //Behaviour
         System.out.println("can bark");
     }
     int age = 10; //Attribute
 }
 
-class hound extends dog{  //Class
+class hound extends dog{  //SubClass
    @Override
     void bark(){  //Behaviour
         System.out.println("Hound Can bark");

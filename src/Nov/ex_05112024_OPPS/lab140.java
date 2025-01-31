@@ -4,9 +4,8 @@ public class lab140 {        //***This is call runner class
     public static void main(String[] args) {
         cat c1 = new cat(); //*** cat is getting called in the runner class
         c1.name = "Kalu";
-        c1.sleep();
         System.out.println(c1.name);
-
+        c1.sleep();
     }
 }
 

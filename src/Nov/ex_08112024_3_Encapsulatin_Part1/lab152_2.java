@@ -5,11 +5,12 @@ public class lab152_2 {
         marks obj = new marks();
         int a = obj.getAge();
         String b = obj.getName();
-        System.out.println(a+ " "+b);
+        System.out.println("Using getter: " + a+ " "+b);
 
         obj.setAge(91);
         obj.setName("noob2");
-        System.out.println(obj.getAge() + " " + obj.getName());
+        System.out.println("Using setter: " + obj.getAge() + " " + obj.getName());
+        obj.behaviour();
 
     }
 }
@@ -32,5 +33,9 @@ class marks {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    void behaviour (){
+        System.out.println("Behaviour: Using setter : " + this.name + " " +this.age);
     }
 }

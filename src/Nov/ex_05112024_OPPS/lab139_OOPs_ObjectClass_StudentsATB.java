@@ -1,25 +1,29 @@
 package Nov.ex_05112024_OPPS;
 
-public class lab139_OOPs_ObjectClass_StudentsATB {   //***This is call runner class
-    public static void main(String[] args) {
-       StudentsATB_lab139_OOPs_ObjectClass s1 = new StudentsATB_lab139_OOPs_ObjectClass(); //***StudentsATB_lab139_OOPs_ObjectClass is getting called in the runner class
-        //* s1 = object reference
-        //* new StudentsATB_lab139_OOPs_ObjectClass(); = Object
-        //* StudentsATB_lab139_OOPs_ObjectClass  = Class
+// C (class) = A(attribute) + B(Behaviour)
+public class lab139_OOPs_ObjectClass_StudentsATB {       //>> C (class)
+    //A(attribute):
+    String name;
+    int age;
+    int bach_no;
+    long phone_no;
+    String address;
 
-       s1.name = "Pramod";
-       //*** s1 = object reference used with attribute (name)
-        s1.eat(10);
-        //*** s1 = object reference used with behaviour (eat)
-        s1.age = 10;
-        System.out.println(s1.age);
 
-       StudentsATB_lab139_OOPs_ObjectClass s2 = new StudentsATB_lab139_OOPs_ObjectClass();
-       s2.name = "Amit";
-       s2.address = "Kolkata";
-       System.out.println(s2.address);
-       s2.age = 20;
-       int a = s2.walk2("50 KM");
-       System.out.println("a = " + a);
+    //B(Behaviour) / methods/ member functions:
+    void study() {                 //>> no return type no arguments
+    }
+
+    void eat(int a) {             //>> no return type with arguments
+    }
+
+    int walk() {                  //>> return type with no arguments
+        return 10;
+    }
+
+    int walk2(String a) {         // >> return type with arguments
+        return 500;
     }
 }
+
+

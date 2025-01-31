@@ -6,7 +6,7 @@ public class Python extends Programming {
         System.out.println(auth);
         System.out.println(version);
     }
-    Python(){
+    Python(){ //Child default constructor
         System.out.println("DC - Child");
     }
     public static void main(String[] args) { //Runner class

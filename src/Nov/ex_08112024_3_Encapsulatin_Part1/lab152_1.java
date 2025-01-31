@@ -10,6 +10,7 @@ public class lab152_1 {
         obj.setAge(30);
         obj.setName("noob");
         System.out.println(obj.getAge() + " " + obj.getName());
+        obj.behaviour();
     }
 }
 
@@ -44,4 +45,7 @@ class Human {
 //    public void setName(String n){
 //        name = n;
 //    }
+    void behaviour (){ //Behaviour
+        System.out.println("Behavious method: " + this.name + " - " + this.age);
+    }
 }

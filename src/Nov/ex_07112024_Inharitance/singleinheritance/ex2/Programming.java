@@ -6,8 +6,8 @@ public class Programming {
     String auth;
 
     Programming() { //Default constructor
-       version = 200;
-       auth = "HC Donald";
+        version = 200;
+        auth = "HC Donald";
         System.out.println("PC - Parent");
     }
-    }
+}

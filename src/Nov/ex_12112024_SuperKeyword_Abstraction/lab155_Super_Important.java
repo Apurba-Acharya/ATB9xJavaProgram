@@ -9,7 +9,7 @@ public class lab155_Super_Important {   //Runner class
     }
 
 }
-class Car extends Vehicle{ //Child class
+class Car extends Vehicle{ //Child Car class: Inharitance
     private int maxSpeed = 281; //Child Attribute
 
     @Override
@@ -20,6 +20,7 @@ class Car extends Vehicle{ //Child class
 
         super(8); //Parent Parametrized constructor calling
         //super(); //Parent default constructor calling
+
         System.out.println("DC Car");
         System.out.println(this.maxSpeed); //>> Child max speed calling
         System.out.println(super.maxSpeed); //>> parent max speed claiing
@@ -29,7 +30,7 @@ class Car extends Vehicle{ //Child class
 }
 
 class Vehicle{ //Parent class
-    public int maxSpeed = 180;
+    public int maxSpeed = 180; //Attribute
 
     void display (){  //Behaviour
         System.out.println("Parent");

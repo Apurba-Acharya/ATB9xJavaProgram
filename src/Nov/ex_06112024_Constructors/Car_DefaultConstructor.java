@@ -6,7 +6,7 @@ public class Car_DefaultConstructor {
     int year;
     String name;
 
-    //constructor name should be same as class name
+    //***constructor name should be same as class name
     //Default Constructor >>
     Car_DefaultConstructor(){
      name = "unknwn";

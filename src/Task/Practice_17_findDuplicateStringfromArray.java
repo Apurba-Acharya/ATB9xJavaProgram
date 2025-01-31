@@ -1,17 +1,24 @@
 package Task;
 
+import java.util.Arrays;
+
 public class Practice_17_findDuplicateStringfromArray {
 
-    /* How to Find Duplicates Elements in Java Array? */
-
+    /* Largest & Smallest Numbers In Array  */
     public static void main(String[] args) {
-        String names[] = {"c", "Java", "Ruby", "Paython", "Java", "c"};
-        for (int i = 0; i < names.length; i++) {
-            for (int j = i + 1; j < names.length; j++) {
-                if (names[i].equals(names[j])) {
-                    System.out.println("duplicate element is: " + names[i]);
-                }
+        int numbers[] = {-10, 24, 50, -88, 6985,0};
+        int largest = numbers[0];
+        int smalest = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i]>largest){
+                largest = numbers[i];
+            }else if (numbers [i]<smalest){
+                smalest = numbers[i];
             }
         }
+        System.out.println("given array is: "+ Arrays.toString(numbers));
+        System.out.println("Largest number is: " + largest);
+        System.out.println("Largest number is: " + smalest);
     }
-}
+
+    }
