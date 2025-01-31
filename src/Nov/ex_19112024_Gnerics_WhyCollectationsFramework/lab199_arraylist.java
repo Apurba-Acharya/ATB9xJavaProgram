@@ -17,10 +17,9 @@ public class lab199_arraylist {
         list2.add(125);
         list2.add(null);
 
-        System.out.println(list2);
-        Object o = list2.get(5);
-        System.out.println(o);
-        System.out.println(list2.get(6));
-
+        System.out.println("Print entaire arraylist value: " + list2);
+        Object o = list2.get(5); // In collection framework Object can fetch all types of data (eg: string, integer)
+        System.out.println("Printing specific value by storing the value in Object: " + o);
+        System.out.println("Printing specific value without storing the value in Object: " + list2.get(6));
     }
 }

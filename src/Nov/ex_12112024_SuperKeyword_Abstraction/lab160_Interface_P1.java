@@ -11,7 +11,7 @@ abstract class ABC{
     ABC(){  //Default constructor
         System.out.println("no issue constructor");
     }
-    //For the abstract class both incomplete and complete method both are allowed in abstract
+    //For the abstract class both incomplete and complete method both are allowed.
     abstract void m1();  //incomplete method
     void m2(){ //Complete method
         System.out.println("complete Method !!!");

@@ -13,9 +13,9 @@ public class lab200_arraylist {
 
         System.out.println("Fetched value -> " + list.get(3));
         System.out.println(list.size());
-        System.out.println(list.isEmpty());
-        System.out.println(list.contains("1"));
-        System.out.println(list.contains(1));
+        System.out.println("Output boolean (isEmpty): " + list.isEmpty());
+        System.out.println("Output boolean (contains): " + list.contains("1"));
+        System.out.println("Output boolean (contains): " + list.contains(1));
         System.out.println(list.indexOf("3"));
         System.out.println(list.lastIndexOf("3"));
 

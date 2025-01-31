@@ -9,8 +9,8 @@ public class lab190_interview_Ques_important {
         try {
             int x = 10/a;
         }catch (Exception e){
-            System.out.println("div by zero");
-            //System.out.println(e.getMessage());
+            //System.out.println("div by zero");
+            System.out.println(e.getMessage());
         }finally {
             System.out.println("I'll be executed any...");
         }
