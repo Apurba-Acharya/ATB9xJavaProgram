@@ -18,6 +18,7 @@ public class lab211_arrayListwithClass_ImportantAutomation {
         s2.printDetails();
         s3.printDetails();
 
-        System.out.println("Print the location of all student: " + m1);
+
+        System.out.println("Print indivisual value: " + m1.get(0).getName() + " "+ m1.get(0).getRollNo());
     }
 }

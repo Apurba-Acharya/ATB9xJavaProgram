@@ -2,7 +2,7 @@ package Task;
 
 import java.util.Scanner;
 
-public class Practice_15 {
+public class Practice_15_CountVowelsAndConsonantsinAString_Imp {
 
     /* Count vowels and consonants in a String */
 
@@ -22,7 +22,7 @@ public class Practice_15 {
     }
 
     public static void main(String[] args) {
-        Practice_15 counter = new Practice_15();
+        Practice_15_CountVowelsAndConsonantsinAString_Imp counter = new Practice_15_CountVowelsAndConsonantsinAString_Imp();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any string value: ");
         //String input = sc.nextLine();

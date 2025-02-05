@@ -2,13 +2,14 @@ package Task;
 
 import java.util.Scanner;
 
-public class Practice_4_Plalindrome_String {
+public class Practice_4_PalindromeString {
 
     /* Plalindrome String */
 
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
         System.out.print("Enter a String: ");
+//        String str = "nitin";
         String str = sc.next();
 
         String rev="";

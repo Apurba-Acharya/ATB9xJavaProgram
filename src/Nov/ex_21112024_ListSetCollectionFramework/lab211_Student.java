@@ -5,7 +5,6 @@ public class lab211_Student {
         private Integer rollNo;
 
         //Encaptulation
-
     public Integer getRollNo() {
         return rollNo;
     }

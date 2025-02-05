@@ -3,7 +3,7 @@ package Task;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Practice_20_LargestandSmallestNumbersInArray {
+public class Practice_20_FindDuplicatesElementsinJavaArray {
 
     /* How to Find Duplicates Elements in Java Array? */
 

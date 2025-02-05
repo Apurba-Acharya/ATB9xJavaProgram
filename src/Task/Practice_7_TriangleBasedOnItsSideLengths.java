@@ -2,7 +2,7 @@ package Task;
 
 import java.util.Scanner;
 
-public class Practice_7 {
+public class Practice_7_TriangleBasedOnItsSideLengths {
 
     /* Write a program that classifies a triangle based on its side lengths.
     Given three input values representing the lengths of the sides,
@@ -12,16 +12,16 @@ public class Practice_7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a, b, c value 5: ");
+        System.out.print("Enter a, b, c values: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
         if (a==b && b==c){
-            System.out.println("Traiangle is: Equilateral");
+            System.out.println("Triangle is: Equilateral");
         }else if (a==b || b==c || c==a){
-            System.out.println("Traiangle is: Isoscale");
+            System.out.println("Triangle is: Isoscale");
         }else {
-            System.out.println("Traiangle is: Scalene");
+            System.out.println("Triangle is: Scalene");
         }
     }
 }

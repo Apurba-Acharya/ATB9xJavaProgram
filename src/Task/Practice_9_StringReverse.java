@@ -13,6 +13,7 @@ public class Practice_9_StringReverse {
         for (int i = len-1; i>=0; i--){
             System.out.print(s.charAt(i));
         }
+        System.out.println();
 
         //using string buffer class >
 
@@ -20,6 +21,7 @@ public class Practice_9_StringReverse {
         //String Buffer > mutable and have reverse function
 
         StringBuffer sf = new StringBuffer(s);
-        System.out.println(sf.reverse());
+        System.out.println("Using string buffer: " + sf.reverse());
+
         }
     }

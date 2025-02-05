@@ -2,7 +2,7 @@ package Task;
 
 import java.util.Scanner;
 
-public class Practice_13 {
+public class Practice_13_LeftTriangleStarPattern {
 
     /* Left Triangle Star Pattern */
 

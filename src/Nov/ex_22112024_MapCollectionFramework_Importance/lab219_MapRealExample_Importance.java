@@ -11,11 +11,11 @@ public class lab219_MapRealExample_Importance {
         s1.put("name","Dev");
         s1.put("phone",4569875);
         s1.put("address","bangalore");
-        System.out.println(s1);
+        System.out.println("Printing HashMap: " + s1);
 
         Set items = new HashSet();
         items.add("rich");
-        System.out.println(items);
+        System.out.println("Printing HashSet: " + items);
 
     }
 }

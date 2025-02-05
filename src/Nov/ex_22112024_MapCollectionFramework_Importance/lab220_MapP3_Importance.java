@@ -12,7 +12,7 @@ public class lab220_MapP3_Importance {
         m3.put("id3", 37);
         m3.put("id4", null);
         m3.put("id5", null);
-        m3.put(null, 102);
+        m3.put(null, 102); //Key can not null
 
         for (Map.Entry<String,Integer> item: m3.entrySet()){   //key value combination is call entryset
             System.out.println(item.getKey() + item.getValue());

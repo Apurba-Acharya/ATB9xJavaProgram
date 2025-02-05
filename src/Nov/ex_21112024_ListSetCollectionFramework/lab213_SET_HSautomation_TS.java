@@ -12,34 +12,36 @@ public class lab213_SET_HSautomation_TS {
         hs.add("Orange");
         hs.add("banana");
         hs.add("Orange");
-        hs.add(null);
-        hs.add(null);
-        System.out.println(hs);
+        hs.add(null); //Null acceptable
+        hs.add(null); //Duplicate not acceptable
+        System.out.println("Printing HashSet value: " + hs);
 
+        //We can not use normal for loop in lhs
+        //We can use for each loop
         Set lhs = new LinkedHashSet();
         lhs.add("apple");
         lhs.add("Orange");
         lhs.add("banana");
-        lhs.add("Orange");
-        lhs.add(null);
-        lhs.add(null);
-        System.out.println(lhs);
-        System.out.println(lhs.isEmpty());
-        System.out.println(lhs.contains("apple"));
-        System.out.println(lhs.size());
+        lhs.add("Orange"); //Duplicate not acceptable
+        lhs.add(null);  //Null acceptable
+        System.out.println("Printing LinkedHashSet value: " + lhs);
+        System.out.println("Boolean 1 = " + lhs.isEmpty());
+        System.out.println("Boolean 2 = " + lhs.contains("apple"));
+        System.out.println("Integer Output = " + lhs.size());
 
-        Set ts = new TreeSet();
-        //Set <String> ts = new TreeSet(); //can use
+        //Set ts = new TreeSet();
+        //ts : Order can not maintain.
+        Set <String> ts = new TreeSet(); //can use
         ts.add("apple");
         ts.add("Orange");
         ts.add("banana");
-        ts.add("Orange");
-//        ts.add(125); // Not allowed different data type
-//        ts.add(null); //Not allowed***
-//        ts.add(null);
-        System.out.println(ts);
+        ts.add("Orange"); //Duplicate not acceptable
+//      ts.add(125); // Not allowed different data type
+//      ts.add(null); //Null Not allowed
+
+        System.out.println("Printing TreeSet value: " + ts);
         for (Object o: ts) {
-            System.out.println(o);
+            System.out.println("Printing TreeSet value using for loop: " + o);
         }
     }
 }

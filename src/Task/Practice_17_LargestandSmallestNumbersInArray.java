@@ -2,7 +2,7 @@ package Task;
 
 import java.util.Arrays;
 
-public class Practice_17_findDuplicateStringfromArray {
+public class Practice_17_LargestandSmallestNumbersInArray {
 
     /* Largest & Smallest Numbers In Array  */
     public static void main(String[] args) {
