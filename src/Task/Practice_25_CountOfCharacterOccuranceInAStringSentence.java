@@ -1,9 +1,6 @@
 package Task;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Practice_25_CountOfCharacterOccuranceInAString {
+public class Practice_25_CountOfCharacterOccuranceInAStringSentence {
 //    Occurance of character In A String
 
     public static void main(String[] args) {

@@ -8,19 +8,28 @@ public class Practice_30_ReverseEveryWordInSentence {
         String str = "We are learning java";
         //Answer: eW era gninrael avaj
 
-        String result = "";
-        String arr[] = str.split(" "); //Split the sentence and store the sentence based on the space
-        for (String word : arr) {
-
+        //Type 1:
+        String words [] = str.split(" "); // split the setence besed on the word
+        String reverseString = ""; //To store the reverse words in a single string
+        for (String w : words){
             String reverseword = "";
-            int j = word.length() - 1;
-            while (j >= 0) {
-                char ch = word.charAt(j);
-                reverseword = reverseword + ch;
-                j--;
+            for (int i = w.length()-1; i>=0; i--){
+                reverseword= reverseword+w.charAt(i);
             }
-            result = result + reverseword + " ";
+            reverseString = reverseString + reverseword + " ";
         }
-        System.out.println(result);
+        System.out.println(reverseString);
+
+
+        //Type 2:
+        String str1 = "Where are you from";
+        String words1 [] = str1.split(" ");
+        String reverseword1 = "";
+        for (String w1 : words1){
+            StringBuilder sb = new StringBuilder(w1);
+            sb.reverse();
+            reverseword1 = reverseword1 + sb.toString() + " "; //sb.toString(): converts the StringBuilder back to a String.
+        }
+        System.out.println(reverseword1);
     }
 }

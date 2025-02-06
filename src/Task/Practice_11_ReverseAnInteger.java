@@ -4,19 +4,20 @@ public class Practice_11_ReverseAnInteger {
 
     /* How to Reverse an Integer > critical questions */
 
-    public static int reverse(int num) {
-        int reversed = 0;
-        while (num != 0) {
-            int digit = num % 10;
-            if (reversed > Integer.MAX_VALUE / 10 || reversed < Integer.MIN_VALUE / 10) return 0;
-            reversed = reversed * 10 + digit;
-            num /= 10;
-        }
-        return reversed;
-    }
-
     public static void main(String[] args) {
-        System.out.println(reverse(12345));   // Output: 54321
-        System.out.println(reverse(-12345));  // Output: -54321
+        int input = 1234;
+        String str = String.valueOf(input); // valueOf(): Converting a integer value to string
+
+        // Type 1:
+        for (int i = str.length()-1; i>=0; i--) {
+            System.out.print(str.charAt(i));
+        }
+
+        System.out.println();
+
+        // Type 2: Using StringBuffer
+        StringBuffer sb = new StringBuffer(str);
+        sb.reverse();
+        System.out.println("Reversing using StringBuffer: " + sb);
     }
 }
