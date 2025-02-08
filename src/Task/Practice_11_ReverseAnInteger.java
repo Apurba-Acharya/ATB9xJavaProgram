@@ -19,5 +19,11 @@ public class Practice_11_ReverseAnInteger {
         StringBuffer sb = new StringBuffer(str);
         sb.reverse();
         System.out.println("Reversing using StringBuffer: " + sb);
+
+        //Type 3: Using string array
+        String s[] = str.split("");
+        for (int i = s.length-1; i>=0; i--) {
+            System.out.print(s[i]);
+        }
     }
 }

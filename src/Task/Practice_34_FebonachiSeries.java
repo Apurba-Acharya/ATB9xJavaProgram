@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class Practice_34_FebonachiSeries {
 
-    //Febonachi Series: 0 1 1 2 3 5 8 13 21
+    //Febonachi Series: 0 1 1 2 3 5 8 13 21 34
 
     public static void main(String[] args) {
         int n1 = 0, n2 = 1, sum = 0;

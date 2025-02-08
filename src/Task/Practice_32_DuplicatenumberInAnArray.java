@@ -14,7 +14,7 @@ public class Practice_32_DuplicatenumberInAnArray {
         for (int i = 0; i < inputArr.length ; i++) {
             for (int j = i+1; j <inputArr.length; j++) {
                 if (inputArr[i] == inputArr[j]){
-                    System.out.println("Duplicate:" + inputArr[i]);
+                    System.out.println("Brute force Duplicate:" + inputArr[i]);
                 }
             }
         }
@@ -29,10 +29,12 @@ public class Practice_32_DuplicatenumberInAnArray {
 
         //Using HashSet:
         Set <Integer> hs = new HashSet<>();
-        for (int x : inputArr){
-            if (hs.add(x) == false){  //we can use this > !hs.add(x)
-                // hs.add(x) : true: value is not present in HashSet
-                // hs.add(x) : false: value is present in HashSet
+        for (int x : inputArr) {
+
+            //Only print duplicate value
+            if (hs.add(x) == false) {  //we can use this > !hs.add(x)
+                // hs.add(x) == true: print all unique values in HashSet
+                // hs.add(x) == false: Print only duplicte value in HashSet
                 // false == false : print that duplicate value
                 System.out.println("Using HashSet Duplicate: " + x);
             }
@@ -51,7 +53,6 @@ public class Practice_32_DuplicatenumberInAnArray {
             if (map.get(x) > 1){
                 System.out.println("HashMap value: " + x);
             }
-
         }
     }
 }
