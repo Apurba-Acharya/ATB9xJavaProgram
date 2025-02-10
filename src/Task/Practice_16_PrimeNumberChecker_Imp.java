@@ -22,6 +22,5 @@ public class Practice_16_PrimeNumberChecker_Imp {
         } else {
             System.out.println("entered value is less than 1");
         }
-
     }
 }
