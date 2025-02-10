@@ -4,19 +4,30 @@ import java.util.*;
 
 public class X1 {
     public static void main(String[] args) {
-        int a[] = {1, 2, 4, 5, 7};
-        int n = 7;
+        String str = "progrAAmming";
 
-        Set <Integer> hs = new HashSet<>();
-        for (int b : a){
-            hs.add(b); // return boolean;
-        }
-        for (int i = 1; i <=n ; i++) {
-            if (hs.contains(i) == false){
-                //hs.contains(i) == false : Compairing which "i" values is not present in "hs"
-                //hs.contains(i) == true : Compairing which "i" values is present in "hs"
-                System.out.println(i);
+        String s = str.toLowerCase();
+//        char ch[] = s.toCharArray(); //Using this also possible
+        String st[] = s.split("");
+
+        Set <String> hs = new HashSet<>();
+        hs.add("a");
+        hs.add("e");
+        hs.add("i");
+        hs.add("o");
+        hs.add("u");
+
+        int vc = 0;
+        int cc = 0;
+
+        for ( String c : st){
+            if (hs.contains(c)){
+                vc++;
+            } else {
+                cc++;
             }
         }
+        System.out.println("Vouel: "+vc);
+        System.out.println("Consonent: "+cc);
     }
-    }
+}

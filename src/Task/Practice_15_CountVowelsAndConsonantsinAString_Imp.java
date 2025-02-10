@@ -1,33 +1,57 @@
 package Task;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Practice_15_CountVowelsAndConsonantsinAString_Imp {
 
     /* Count vowels and consonants in a String */
 
-    public int[] countVowelsCons(String str) {
+    public static void main(String[] args) {
+
+        //Type 1:
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any string value: ");
+        String string = sc.next();
         int vCount = 0;
         int cCount = 0;
 
-        for(int i=0; i<str.length(); i++) {
-            char ch = str.toLowerCase().charAt(i);
+        for(int i=0; i<string.length(); i++) {
+            char ch = string.toLowerCase().charAt(i);
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 vCount++;
             } else if(ch >= 'a' && ch <= 'z') {
                 cCount++;
             }
         }
-        return new int[]{vCount, cCount};
-    }
+        System.out.println("Number of vowels: " + vCount);
+        System.out.println("Number of consonants: " + cCount);
 
-    public static void main(String[] args) {
-        Practice_15_CountVowelsAndConsonantsinAString_Imp counter = new Practice_15_CountVowelsAndConsonantsinAString_Imp();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any string value: ");
-        //String input = sc.nextLine();
-        int[] result = counter.countVowelsCons(sc.nextLine());
-        System.out.println("Number of vowels: " + result[0]);
-        System.out.println("Number of consonants: " + result[1]);
+        System.out.println("******************** End! ******************");
+
+        //Type 2: Using HashSet:
+        String str = "progrAAmming";
+        String s = str.toLowerCase();
+        String st [] = s.split(""); // char ch[] = s.toCharArray(); //Using this also possible
+
+        Set <String> hs = new HashSet<>();
+        hs.add("a");
+        hs.add("e");
+        hs.add("i");
+        hs.add("o");
+        hs.add("u");
+
+        int vc = 0;
+        int cc = 0;
+        for (int i = 0; i < st.length ; i++) {    //for ( String c : st)
+            if (hs.contains(st[i])){
+                vc++;
+            }else {
+                cc++;
+            }
+        }
+        System.out.println("Vouels are: " + vc);
+        System.out.println("Consonents are: " + cc);
     }
 }

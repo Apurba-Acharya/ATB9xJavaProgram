@@ -3,7 +3,7 @@ package Task;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Practice_12_MissingNumberFromArray {
+public class Practice_12_MissingNumberFromArray_Imp {
 
     /* How to find Missing Number In Array */
 
@@ -11,11 +11,6 @@ public class Practice_12_MissingNumberFromArray {
 
     public static void main(String[] args) {
         int a[] = {1, 2, 4, 5};
-
-        //1+2+4+5 = 12
-        //1+2+3+4+5= 15;
-        //15-12=3
-        //* To satisfy += condition in any loop first we need to declare the value.
 
         int total = 0;
         for (int num : a) {
@@ -40,14 +35,14 @@ public class Practice_12_MissingNumberFromArray {
         System.out.println("Using formula: " + (actual1 - expected1));
 
 
-        //Using HashSet:
+        //Using HashSet (Important):
         int b[] = {1, 2, 4, 5, 7};
-        int c = 7; //last number of the given array.
+//        int c = 7; //last number of the given array.
         Set<Integer> hs = new HashSet<>();
         for (int d : b) {
             hs.add(d); // return boolean; //Adding all integer value in the "hs"
         }
-        for (int i = 1; i <= c; i++) {
+        for (int i = 1; i <= 7; i++) {
             if (hs.contains(i) == false) {
                 //hs.contains(i) == false : Compairing which "i" values is not present in "hs"
                 //hs.contains(i) == true : Compairing which "i" values is present in "hs"
