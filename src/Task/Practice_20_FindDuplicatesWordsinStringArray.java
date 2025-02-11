@@ -3,7 +3,7 @@ package Task;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Practice_20_FindDuplicatesElementsinJavaArray {
+public class Practice_20_FindDuplicatesWordsinStringArray {
 
     /* How to Find Duplicates Elements in Java Array? */
 

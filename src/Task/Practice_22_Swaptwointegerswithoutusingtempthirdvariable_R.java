@@ -1,6 +1,6 @@
 package Task;
 
-public class Practice_22_Swaptwointegerswithoutusingtempthirdvariable {
+public class Practice_22_Swaptwointegerswithoutusingtempthirdvariable_R {
 
     /* Swap two integers without using temp/third variable */
 
