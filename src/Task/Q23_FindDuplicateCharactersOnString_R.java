@@ -10,7 +10,7 @@ public class Q23_FindDuplicateCharactersOnString_R {
 //    Find duplicate character on a string
 
     public static void main(String[] args) {
-        String st = "selenium";
+        String st = "seleniums";
         String str = st.toLowerCase();
 
         char arr[] = str.toCharArray();

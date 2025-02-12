@@ -1,6 +1,6 @@
 package Task;
 
-public class Q26_PrimeNumbersFromAnArray {
+public class Q26_PrimeNumbersFromAnArray_R {
 
     //Find out prime numbers from an array
 

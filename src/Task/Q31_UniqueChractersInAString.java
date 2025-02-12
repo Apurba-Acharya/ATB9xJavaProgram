@@ -23,11 +23,22 @@ public class Q31_UniqueChractersInAString {
         }
         System.out.println("HashMap: " + charCount.keySet());
 
-        //HashSet:
+        //HashSet: T1:
         Set<Character> set = new HashSet<>();
         for (int i = 0; i < str.length(); i++) {
             set.add(str.charAt(i));
         }
-        System.out.println("HashSet: " + set);
+        System.out.println("HashSet (T1): " + set);
+
+        //HashSet: T2:
+        char[] cArray = str.toCharArray();
+        Set <Character> hs = new HashSet<>();
+        String uWrords = "";
+        for (char c : cArray){
+            if (hs.add(c)==true){
+                uWrords = uWrords + c;
+            }
+        }
+        System.out.println("HashSet (T2): " + uWrords);
     }
 }
