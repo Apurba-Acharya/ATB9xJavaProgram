@@ -1,16 +1,17 @@
 package Task;
 import java.util.HashSet;
+import java.util.Set;
 
-    public class Q19_FirstRepeatedCharacterInStringSentence_R {
+public class Q19_FirstRepeatedCharacterInStringSentence_R {
         public static void main(String[] args) {
-            String input = "x progxamming nicoter";
+            String input = "t progxamming nicoter";
             String n = input.replaceAll(" ", "");
             char c[] = n.toCharArray();
-            HashSet<Character> seen = new HashSet<>();
+            Set<Character> hs = new HashSet<>();
             Character firstRepeated = null;
 
             for (char ch : c) {
-                if (seen.add(ch)==false) {
+                if (hs.add(ch)==false) {
                     firstRepeated = ch;
                     break;
                 }

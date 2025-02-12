@@ -3,7 +3,7 @@ package Task;
 
 import java.util.*;
 
-public class Q32_DuplicateNumberfromAnArray {
+public class Q32_DuplicateNumberfromAnIntegerArray_R {
 
     //Find the duplicate number from an integer array
 

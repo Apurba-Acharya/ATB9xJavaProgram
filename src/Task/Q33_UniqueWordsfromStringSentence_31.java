@@ -3,7 +3,7 @@ package Task;
 
 import java.util.*;
 
-public class Q33_RemoveDuplicateWordsfromStringSentence {
+public class Q33_UniqueWordsfromStringSentence_31 {
 
     //Remove duplicate words from given sentence in string
 

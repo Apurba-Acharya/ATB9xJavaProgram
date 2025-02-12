@@ -12,7 +12,7 @@ public class lab150_overriding {
 
 class dog { //SuperClass
     void bark(){  //Behaviour
-        System.out.println("can bark");
+        System.out.println("Dog can bark");
     }
     int age = 10; //Attribute
 }

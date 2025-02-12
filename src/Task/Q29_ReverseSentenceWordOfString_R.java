@@ -5,7 +5,7 @@ public class Q29_ReverseSentenceWordOfString_R {
     //  Reverse sentence word of a string.
 
     public static void main(String[] args) {
-        String str = "We are learning java";
+        String str = "We are learning java"; // Output: java learning are We
         String result = ""; //this line is storing and updating the value after each appends
         String arr[] = str.split(" "); //based on the space each word is spliting and storing in the array
 

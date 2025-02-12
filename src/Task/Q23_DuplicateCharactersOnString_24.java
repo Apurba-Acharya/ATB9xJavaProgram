@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Q23_FindDuplicateCharactersOnString_R {
+public class Q23_DuplicateCharactersOnString_24 {
 
 //    Find duplicate character on a string
 

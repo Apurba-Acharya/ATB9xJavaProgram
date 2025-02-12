@@ -3,7 +3,7 @@ package Task;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q24_OccuranceofWordInAStringSentence_R {
+public class Q24_OccuranceofWordInAStringSentence_28 {
 //    Occurance of Word In A String
 
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package Task;
 
 import java.util.*;
 
-public class Q36_DuplicateDigitsFromAnInteger_R {
+public class Q36_DuplicateDigitsFromAnInteger_32 {
     public static void main(String[] args) {
         int i = 95332009;
         String str = String.valueOf(i);

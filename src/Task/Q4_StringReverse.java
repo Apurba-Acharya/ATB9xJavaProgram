@@ -1,6 +1,6 @@
 package Task;
 
-public class Q9_StringReverse {
+public class Q4_StringReverse {
 
     /* Reverse String */
 
