@@ -1,13 +1,13 @@
 package Task;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class Q38_SecondLargestNumberinAnArray {
+public class Q43_SecondSmalestNumberinAnArray {
 
-//    Find Second Largest Number in an Array
+//    Find Second Smallest Number in an Array
 
     public static void main(String[] args) {
         int arr[] = {29, -1, 7, 18, 18, 29, 18};
@@ -24,7 +24,7 @@ public class Q38_SecondLargestNumberinAnArray {
         }
         Integer uniqueValues [] = hs.toArray(new Integer [hs.size()]);
 
-        Arrays.sort(uniqueValues);
+        Arrays.sort(uniqueValues, Collections.reverseOrder());
         System.out.println(Arrays.toString(uniqueValues));
         int secondLargest = uniqueValues[uniqueValues.length-2];
         System.out.println("Second Largest: " + secondLargest);
