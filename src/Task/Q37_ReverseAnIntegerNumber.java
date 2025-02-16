@@ -6,7 +6,7 @@ public class Q37_ReverseAnIntegerNumber {
 
     public static void main(String[] args) {
 
-        // Using algorithm (recursion):
+        // Using algorithm:
         int num = 1234;
         int rev = 0;
         while (num!=0){

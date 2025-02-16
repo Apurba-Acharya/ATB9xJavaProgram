@@ -10,7 +10,7 @@ public class lab139_OOPs_ObjectClass_StudentsATB {       //>> C (class)
     String address;
 
 
-    //B(Behaviour) / methods/ member functions:
+    // B(Behaviour) / methods / member functions:
     void study() {                 //>> no return type no arguments
     }
 
