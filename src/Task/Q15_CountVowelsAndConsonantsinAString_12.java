@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Q15_CountVowelsAndConsonantsinAString_Imp {
+public class Q15_CountVowelsAndConsonantsinAString_12 {
 
     /* Count vowels and consonants in a String */
 
@@ -44,14 +44,17 @@ public class Q15_CountVowelsAndConsonantsinAString_Imp {
 
         int vc = 0;
         int cc = 0;
+        String vouels = "";
         for (int i = 0; i < st.length ; i++) {    //for ( String c : st)
             if (hs.contains(st[i])){
                 vc++;
+                vouels = vouels+st[i] + " "; // Vouels count.
             }else {
                 cc++;
             }
         }
-        System.out.println("Vouels are: " + vc);
-        System.out.println("Consonents are: " + cc);
+        System.out.println("HashSet vouels are: " + vc);
+        System.out.println("Vouels are: " + vouels);
+        System.out.println("HashSet consonents are: " + cc);
     }
 }

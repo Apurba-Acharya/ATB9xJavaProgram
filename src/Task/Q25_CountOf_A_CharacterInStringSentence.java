@@ -1,6 +1,6 @@
 package Task;
 
-public class Q25_CountOfACharacterInStringSentence {
+public class Q25_CountOf_A_CharacterInStringSentence {
 //    Occurance of character In A String
 
     public static void main(String[] args) {

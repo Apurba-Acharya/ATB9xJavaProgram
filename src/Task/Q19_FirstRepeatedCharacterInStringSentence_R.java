@@ -6,7 +6,7 @@ public class Q19_FirstRepeatedCharacterInStringSentence_R {
         public static void main(String[] args) {
             String input = "t progxamming nicoter";
             String n = input.replaceAll(" ", "");
-            char c[] = n.toCharArray();
+            char c[] = n.toCharArray(); //Using string: String c1[] = n.split("");
             Set<Character> hs = new HashSet<>();
             Character firstRepeated = null;
 

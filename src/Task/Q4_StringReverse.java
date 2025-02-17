@@ -21,7 +21,7 @@ public class Q4_StringReverse {
         StringBuffer sf = new StringBuffer(s);
         System.out.println("Using stringBuffer: " + sf.reverse());
 
-        //USing Array:
+        // using Array:
         String s1[] = s.split("");
         String rev = "";
         for (int i= s1.length-1; i>=0 ; i--) {

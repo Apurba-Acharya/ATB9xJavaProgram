@@ -16,7 +16,7 @@ public class Q23_DuplicateCharactersOnString_24 {
         char arr[] = str.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
         for (char c : arr) {  //we can use: for (int i=0, i<arr.length; i++)
-            if (!map.containsKey(c)) {
+            if (!map.containsKey(c)) { //c r value jode map e aage theke naa thake tahole key = c ; value = 1 dao.
                 map.put(c, 1);
             } else {
                 map.put(c, map.get(c) + 1);
