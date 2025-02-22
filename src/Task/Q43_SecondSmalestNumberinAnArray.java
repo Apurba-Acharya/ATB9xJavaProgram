@@ -26,7 +26,7 @@ public class Q43_SecondSmalestNumberinAnArray {
 
         Arrays.sort(uniqueValues, Collections.reverseOrder());
         System.out.println(Arrays.toString(uniqueValues));
-        int secondLargest = uniqueValues[uniqueValues.length-2];
-        System.out.println("Second Largest: " + secondLargest);
+        int secondSmalest = uniqueValues[uniqueValues.length-2];
+        System.out.println("Second Smalest: " + secondSmalest);
     }
 }

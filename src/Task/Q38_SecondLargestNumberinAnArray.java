@@ -2,7 +2,6 @@ package Task;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Q38_SecondLargestNumberinAnArray {
@@ -26,7 +25,7 @@ public class Q38_SecondLargestNumberinAnArray {
 
         Arrays.sort(uniqueValues);
         System.out.println(Arrays.toString(uniqueValues));
-        int secondLargest = uniqueValues[uniqueValues.length-2];
+        int secondLargest = uniqueValues[uniqueValues.length-2]; // uniqueValues [4-2] >> uniqueValues [2]
         System.out.println("Second Largest: " + secondLargest);
     }
 }
