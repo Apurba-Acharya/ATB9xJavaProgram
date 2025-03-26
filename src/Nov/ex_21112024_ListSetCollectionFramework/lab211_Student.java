@@ -26,6 +26,12 @@ public class lab211_Student {
         this.name = name;
 
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + rollNo + ", Name: " + name;
+    }
+
     public void printDetails (){ //Behaviour
         System.out.println("Student Name -> " + this.name);
         System.out.println("Student RollN -> " + this.rollNo);

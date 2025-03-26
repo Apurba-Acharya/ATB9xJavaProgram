@@ -15,7 +15,6 @@ public class lab152_0 {
         String pass = vmoLogin1.getPassword(true);
         //vmoLogin1.setPassword("hacker123");
         System.out.println(pass);
-
     }
 }
 

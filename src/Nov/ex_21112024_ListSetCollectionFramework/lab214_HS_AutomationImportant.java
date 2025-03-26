@@ -12,5 +12,9 @@ public class lab214_HS_AutomationImportant {
         set.add("Apple");
         set.add(null);
         System.out.println("Set elements: " + set);
+
+        for (Object O : set){
+            System.out.println(O);
+        }
     }
 }

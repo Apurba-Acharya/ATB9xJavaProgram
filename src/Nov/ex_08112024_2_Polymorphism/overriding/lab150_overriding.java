@@ -9,7 +9,6 @@ public class lab150_overriding {
 }
 
 
-
 class dog { //SuperClass
     void bark(){  //Behaviour
         System.out.println("Dog can bark");

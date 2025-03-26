@@ -3,7 +3,8 @@ package Nov.ex_08112024_2_Polymorphism.over_loading;
 public class lab148 { //Runner class
     public static void main(String[] args) {
         mpr m = new mpr(); //Object
-        int sum = m.add(9,10);
+        int sum = m.add(5,10);
+        float s = m.add(50.258f,2.255f);
         System.out.println(sum);
 
        m.add(5,5,7);

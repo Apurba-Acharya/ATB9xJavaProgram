@@ -7,20 +7,19 @@ import java.util.Set;
 
 public class X1 {
     public static void main(String[] args) {
-        String st = "seleniums";
-        String str = st.toLowerCase();
-        char c[] = str.toCharArray();
-        Map<Character, Integer> hm = new HashMap<>();
-        for (char ch : c){
-            if (hm.containsKey(ch)==false){
-                hm.put(ch, 1);
-            }else {
-                hm.put(ch, hm.get(ch)+1);
-            }
-        }
-        for (char c1 : hm.keySet()){
-            if (hm.get(c1) >1){
-                System.out.println(c1 + " : " + hm.get(c1));
+        int arr[] = {1, 2, 3, 4, 5, 6, 7};
+        int sum = 8;
+        int low = 0;
+        int high = arr.length-1;
+        while (low<high){
+            if (arr[low]+arr[high]>sum){
+                high--;
+            }else if (arr[low]+arr[high]<sum){
+                low++;
+            } else if (arr[low]+arr[high]==sum) {
+                System.out.println(arr[low] + arr[high]);
+                low++;
+                high--;
             }
         }
     }
